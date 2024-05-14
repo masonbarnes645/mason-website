@@ -1,3 +1,20 @@
-body {
-    background: green;
+  div {
+    background: rgb(49, 17, 100);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    h1 {
+      font-size: xxx-large;
+      text-align: center;
+    };
+    h2 {
+      font-size: medium;
+      text-align: center;
+      font-style: italic;
+    };
+  
+  
+  
+  
   }
+
+
+ 
