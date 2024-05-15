@@ -1,5 +1,11 @@
-  div {
-    background: rgb(49, 17, 100);
+  body{
+    background-image: url('background.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  
+    div {
+    
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     h1 {
       font-size: xxx-large;
@@ -15,6 +21,6 @@
   
   
   }
-
+  }
 
  
