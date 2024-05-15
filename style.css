@@ -3,28 +3,32 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-  
-    div {
     
+    ul {
+      font-size: x-large;
+      color: aliceblue;
+      line-height: 6pc;
+      a{
+        color:aliceblue
+      }
+    
+    };  
+    div {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    h1 {
+      h1 {
       font-size: xxx-large;
       text-align: center;
     };
-    h2 {
+      h2 {
       font-size: medium;
       text-align: center;
-      font-style: italic;
-    
-    
-    
-    
+      font-style: italic; 
+     };
     };
-  
-  
-  
-  
-  }
-  }
+  };
+
+
+ 
+ 
 
  
