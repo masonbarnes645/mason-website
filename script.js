@@ -1,4 +1,11 @@
-const h2 = document.createElement('h2');
-h2.textContent = "Content added by JS";
 
+
+document.addEventListener("DOMContentLoaded", function(){
+const mailer = document.getElementById("mail");
+mailer.addEventListener("mouseover", function(){
+
+    
+        alert("mouseover");})});
+
+    
 
