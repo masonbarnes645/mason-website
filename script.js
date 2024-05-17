@@ -1,8 +1,8 @@
 
 
 document.addEventListener("DOMContentLoaded", function(){
-const mailer = document.getElementById("mail");
-mailer.addEventListener("mouseover", function(){
+const mailer = document.getElementById("light");
+mailer.addEventListener("click", function(){
 
     
         alert("mouseover");})});

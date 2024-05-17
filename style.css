@@ -4,7 +4,7 @@
     background-size: cover;
     background-attachment: fixed;
     
-    p {
+    p#info {
       font-size: x-large;
       font-family: Monaco, monospace;
       color: aliceblue;
@@ -18,21 +18,27 @@
       a{
         color:aliceblue
       }
+    };
     
-    };  
+    #light  {
+      color:red
+    }
+    
     div {
       font-family: Monaco, monospace;
-      
+    };
       h1 {
       font-size: xxx-large;
       text-align: center;
+      color:aliceblue
     };
       h2 {
       font-size: medium;
       text-align: center;
       font-style: italic; 
+      color:aliceblue
      };
-    };
+    
   };
 
 
