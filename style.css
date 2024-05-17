@@ -4,17 +4,25 @@
     background-size: cover;
     background-attachment: fixed;
     
-    ul {
+    p {
       font-size: x-large;
+      font-family: Monaco, monospace;
       color: aliceblue;
       line-height: 6pc;
+      position: absolute; 
+      top: 50%; 
+      left: 50%; 
+      transform: translate(-50%, -50%);
+      text-align: center;
+      
       a{
         color:aliceblue
       }
     
     };  
     div {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-family: Monaco, monospace;
+      
       h1 {
       font-size: xxx-large;
       text-align: center;
