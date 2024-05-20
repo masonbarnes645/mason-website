@@ -1,0 +1,42 @@
+   
+ body{
+    background-color: white;
+    color: black;
+  }
+
+#info {
+  font-size: x-large;
+  font-family: Monaco, monospace;
+  color: black;
+  line-height: 6pc;
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  text-align: center;
+    }
+a{
+    color:black
+    }
+div {
+    font-family: Monaco, monospace;
+    }
+h1 {
+    font-size: xxx-large;
+    text-align: center;
+    color:black
+    }
+h2 {
+    font-size: medium;
+    text-align: center;
+    font-style: italic; 
+    color:black
+     }
+  
+  
+
+
+ 
+ 
+
+ 
