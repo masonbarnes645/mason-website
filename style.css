@@ -1,13 +1,20 @@
-  body{
-    background-image: url('background.webp');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+ 
+ 
+  .darken {
+    background-color: black;
+    color: white;
+  }
+ body{
+    background-color: white;
+    color: black;
+    
+ 
+    
     
     p#info {
       font-size: x-large;
       font-family: Monaco, monospace;
-      color: aliceblue;
+      color: black;
       line-height: 6pc;
       position: absolute; 
       top: 50%; 
@@ -16,13 +23,16 @@
       text-align: center;
       
       a{
-        color:aliceblue
+        color:black
       }
     };
     
-    #light  {
-      color:red
-    }
+   
+ 
+
+    
+   
+   
     
     div {
       font-family: Monaco, monospace;
@@ -30,13 +40,13 @@
       h1 {
       font-size: xxx-large;
       text-align: center;
-      color:aliceblue
+      color:black
     };
       h2 {
       font-size: medium;
       text-align: center;
       font-style: italic; 
-      color:aliceblue
+      color:black
      };
     
   };

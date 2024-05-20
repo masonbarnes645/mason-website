@@ -1,11 +1,18 @@
 
 
 document.addEventListener("DOMContentLoaded", function(){
-const mailer = document.getElementById("light");
-mailer.addEventListener("click", function(){
+const darkMode = document.getElementById("light");
 
-    
-        alert("mouseover");})});
+darkMode.addEventListener("click", toggleD);
+
+function toggleD(){
+        var background = document.body
+        background.classList.toggle("darken");
+}
+
+
+});
+
 
     
 
