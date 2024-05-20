@@ -3,19 +3,33 @@
 document.addEventListener("DOMContentLoaded", function(){
 const darkMode = document.getElementById("darkModeButton");
 const p = document.getElementById("info");
+const h1 = document.getElementById("hOne");
+const h2 = document.getElementById("hTwo");
+let isDarkMode = false;
+
+
 
 darkMode.addEventListener("click", toggleD);
 
 function toggleD(){
 
-        var background = document.body
-        background.style.background="black";
-        darkMode.textContent="light";
-        p.style.color="white";
-        
-        
-}
+var background = document.body;
 
+if(isDarkMode) {
+        background.style.background="black";
+        darkMode.textContent="Light";
+        p.style.color="white";
+        h1.style.color="white";
+        h2.style.color="white";  
+        isDarkMode = false; }
+else {
+        background.style.background="white";
+        darkMode.textContent="Dark";
+        p.style.color="black";
+        h1.style.color="black";
+        h2.style.color="black";  
+        isDarkMode = true;
+}}
 
 });
 
