@@ -1,13 +1,19 @@
 
 
 document.addEventListener("DOMContentLoaded", function(){
-const darkMode = document.getElementById("light");
+const darkMode = document.getElementById("darkModeButton");
+const p = document.getElementById("info");
 
 darkMode.addEventListener("click", toggleD);
 
 function toggleD(){
+
         var background = document.body
-        background.classList.toggle("darken");
+        background.style.background="black";
+        darkMode.textContent="light";
+        p.style.color="white";
+        
+        
 }
 
 
