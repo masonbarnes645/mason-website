@@ -37,6 +37,8 @@ h2 {
     width: 5%;
     font-size: 16px;
     transition-duration: .4s;
+    position:absolute;
+    top: 1%
   
    }
 #darkModeButton:hover{
